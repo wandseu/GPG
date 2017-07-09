@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Media;
+
+namespace GuessPakGanern
+{
+    public partial class PakGanernGame : Form
+    {
+        SoundPlayer GBGM = new SoundPlayer(GuessPakGanern.Properties.Resources.GBGM);
+
+        public string playerName;
+        public string InputPlayerName
+        {
+            get { return playerName; }
+            set { playerName = value; }
+        }
+
+        public void ReturnPName()
+        {
+            this.PlayerNameLabel.Text = ("Bes "+InputPlayerName).ToString();
+        }
+
+        private int _Score = 0;
+        
+        public int Score
+        {
+            get { return _Score; }
+            set { _Score = value; }
+        }
+
+        public PakGanernGame()
+        {
+            InitializeComponent();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void PakGanernGame_Load(object sender, EventArgs e)
+        {
+            GBGM.PlayLooping();
+            PGamePanel.Controls.Clear();
+            PGamePanel.Controls.Add(new GameUControl());
+        }
+      
+        private void Instructions_Click(object sender, EventArgs e)
+        {
+            HowTo.Visible = false;
+        }  
+
+        public void UpdateScore()
+        {
+            this.ScoreLabel.Text = Score.ToString();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            HowTo.Visible = true;
+        }
+    } // PakGanern Form
+} // namespace

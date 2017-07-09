@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GuessPakGanern
+{
+    public partial class PakGanernGame : Form
+    {
+        public PakGanernGame()
+        {
+            InitializeComponent();
+        }
+        
+        public class PlayerName
+        {
+            public string playerName;
+
+            public string InputPlayerName
+            {
+                get { return playerName; }
+                set { playerName = value; }
+            }
+
+            public string ReturnPName()
+            {
+                return InputPlayerName;
+            }
+        }
+
+        public class PakGanern : PlayerName
+        {
+            public string randString;
+            public string RandomString
+            {
+                get { return randString; }
+                set { randString = value; }
+            }
+
+            public string ReturnRString()
+            {
+                return RandomString;
+            }
+        }
+
+        private void buttonQ_Click(object sender, EventArgs e)
+        {
+            Button bttn = (Button)sender;
+            bttn.Enabled = false;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void PakGanernGame_Load(object sender, EventArgs e)
+        {
+            string[] words =
+                {
+                "cookies",
+                "grandmother",
+                "mathematics",
+                "mysterious",
+                "relationship",
+                "neighborhood",
+                "arrangement",
+                "explanation",
+                "fireplace",
+                "garage"
+                };
+
+            string RandString = words[new Random().Next(0, words.Length)];
+
+            char[] a = new char[RandString.Length];
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                a[i] = '_';
+            }
+
+            List<Label> labels = new List<Label>();
+            int space = 600 / a.Length - 1;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                labels.Add(new Label());
+                labels[i].Location = new Point((i * space), 125);
+                labels[i].Parent = groupBox1;
+                labels[i].Text = "__";
+                labels[i].BringToFront();
+                labels[i].CreateControl();
+            }
+        }
+    }
+}

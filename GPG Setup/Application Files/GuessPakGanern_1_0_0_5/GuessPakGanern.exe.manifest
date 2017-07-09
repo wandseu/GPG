@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GuessPakGanern.exe" version="1.0.0.5" publicKeyToken="de613262345289e2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GuessPakGanern" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GuessPakGanern.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GuessPakGanern.exe" size="28333512">
+      <assemblyIdentity name="GuessPakGanern" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T+ZChT6Dw7u5aHrWvJdxYu696yVJX6UH3T+s9ZcW0SI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GuessPakGanern.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MLENOVO\choiwanda" issuerKeyHash="c99dda767313845afeb56b7ae115c7520b20b274" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VNY77qDoSoaR2rY9mmHTiN+4IxHTh40nt9v9BOdKxoQ=</DigestValue></Reference></SignedInfo><SignatureValue>oVGAOAU4BrGqRa8HnwdzYL6oOM7IdKr8r94RyhSopswZxzGKM6VbNkjnwhqZVLPSbx8IiY83HsYEP/906r32IldtaKLO+j5xfbTqqkTD+fqY9Mu8XEJljo3lc4XDs3lkBdgw+E+EHnLA/YBdhFORJWzA0zg2R1fTBsPMGR1nv74=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3BqIZxnaSGva0GEHuvaLoZTQm1SnBAZp4uoFjpbCmVF7vUrO37i+Vd+QxCyhH7iEmdW5ZwidKKVh2BfjbQHr2lp9v6D0rThoR7TLXrTHWVR4OVce9cEgsWz5na3rZoS2r1GJmEjSr6cVIjXhz7jvgbnNJN0fINr1BeKpfYFWFYs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="84c64ae704fddbb7278d87d31123b8df88d3619a3db6da91864ae8a0ee3bd654" Description="" Url=""><as:assemblyIdentity name="GuessPakGanern.exe" version="1.0.0.5" publicKeyToken="de613262345289e2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MLENOVO\choiwanda</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U9amELDTvZZegGyND44P5WNZn1gmxQbaBqhrMnnmRyQ=</DigestValue></Reference></SignedInfo><SignatureValue>zkDTSlnrs3XpkTSPIxKwBqHcLIvuGKx4790PSCFnekiAN2X2znYeQzMUD/mZoov6ITV0W1RL/TzlgndUSNPRVZDF5clG6KrCWo1OFjuA/jltHdK6fjW8y56w7gxgx+sVA89n1h/we5g6F7H5Rz9wVlMQUxWowiUL3ez5gQnWzIc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3BqIZxnaSGva0GEHuvaLoZTQm1SnBAZp4uoFjpbCmVF7vUrO37i+Vd+QxCyhH7iEmdW5ZwidKKVh2BfjbQHr2lp9v6D0rThoR7TLXrTHWVR4OVce9cEgsWz5na3rZoS2r1GJmEjSr6cVIjXhz7jvgbnNJN0fINr1BeKpfYFWFYs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQJf+JqfnqqJ9ENX076HH34zANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIATQBMAEUATgBPAFYATwBcAGMAaABvAGkAdwBhAG4AZABhMB4XDTE2MDkyMjE0MjkwNVoXDTE3MDkyMjIwMjkwNVowLTErMCkGA1UEAx4iAE0ATABFAE4ATwBWAE8AXABjAGgAbwBpAHcAYQBuAGQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3BqIZxnaSGva0GEHuvaLoZTQm1SnBAZp4uoFjpbCmVF7vUrO37i+Vd+QxCyhH7iEmdW5ZwidKKVh2BfjbQHr2lp9v6D0rThoR7TLXrTHWVR4OVce9cEgsWz5na3rZoS2r1GJmEjSr6cVIjXhz7jvgbnNJN0fINr1BeKpfYFWFYsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDLDLlGgaxSG+MWpM9OvX4AgZefC3l1Z/jsBo6VYwPHEPpUhoF9HEOd75kwhZleCzx63NUwIxhVS8ejmm5C/wXxh2GYPff/A5Q0FC661wi6C4uJibbqCmgOoUFY5zw1hzhh4k3OwG5RWBL+B/imwZfdjo8ulz3W10HPldAZHy9Lzg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

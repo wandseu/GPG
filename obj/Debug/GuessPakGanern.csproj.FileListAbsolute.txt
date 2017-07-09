@@ -1,0 +1,76 @@
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\GuessPakGanern.exe.config
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.csprojResolveAssemblyReference.cache
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernMenu.resources
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.Properties.Resources.resources
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.csproj.GenerateResource.Cache
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\MetroFramework.Design.dll
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\MetroFramework.dll
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.LoadingScreen.resources
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernGame.resources
+C:\Users\MaryWilla\Desktop\SYSTEM\ADPROG\GuessPakGanern\obj\Debug\GuessPakGanern.Name.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\bin\Debug\GuessPakGanern.exe.config
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.exe
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.pdb
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\bin\Debug\GuessPakGanern.exe
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\bin\Debug\GuessPakGanern.pdb
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.csprojResolveAssemblyReference.cache
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.PakGanernMenu.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.LoadingScreen.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.Name.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.PakGanernGame.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.Properties.Resources.resources
+C:\Users\toshiba\Downloads\GuessPakGanern (1)\obj\Debug\GuessPakGanern.csproj.GenerateResource.Cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\bin\Debug\GuessPakGanern.exe.config
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\bin\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\bin\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.csprojResolveAssemblyReference.cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.PakGanernMenu.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.LoadingScreen.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.Name.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.PakGanernGame.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.Properties.Resources.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.csproj.GenerateResource.Cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern (1)\obj\Debug\GuessPakGanern.GameUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\bin\Debug\GuessPakGanern.exe.config
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\bin\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\bin\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.csprojResolveAssemblyReference.cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.GameUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernMenu.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.LoadingScreen.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.Name.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernGame.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.Properties.Resources.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\RESEARCH\GuessPakGanern\obj\Debug\GuessPakGanern.csproj.GenerateResource.Cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernMenu.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.LoadingScreen.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.Name.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.PakGanernGame.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.Properties.Resources.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.csproj.GenerateResource.Cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\bin\Debug\GuessPakGanern.exe.config
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\bin\Debug\GuessPakGanern.exe.manifest
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\bin\Debug\GuessPakGanern.application
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\bin\Debug\GuessPakGanern.exe
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\bin\Debug\GuessPakGanern.pdb
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.csprojResolveAssemblyReference.cache
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.exe.manifest
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.application
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.AnimalsUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.CategoryUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.MoviesUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.GamesUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.CountriesUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.SuperHeroUControl.resources
+C:\Users\MaryWilla\Desktop\PAK GANERN\GuessPakGanern\obj\Debug\GuessPakGanern.ArtistsUControl.resources

@@ -1,0 +1,208 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Media;
+
+namespace GuessPakGanern
+{
+    public partial class GameUControl : UserControl
+    {
+        SoundPlayer MarioJump = new SoundPlayer(GuessPakGanern.Properties.Resources.MarioJump);
+        SoundPlayer Buzzer = new SoundPlayer(GuessPakGanern.Properties.Resources.Buzzer);
+        SoundPlayer StageClear = new SoundPlayer(GuessPakGanern.Properties.Resources.StageClear);
+        SoundPlayer GameOver = new SoundPlayer(GuessPakGanern.Properties.Resources.GameOver);
+        SoundPlayer GBGM = new SoundPlayer(GuessPakGanern.Properties.Resources.GBGM);
+
+        public GameUControl()
+        {
+            InitializeComponent();
+        }
+
+        private System.Media.SoundPlayer mediaSoundPlayer = new System.Media.SoundPlayer();
+        List<Label> labels = new List<Label>();
+        public string[] words;
+        public char[] a;
+        public string randString;
+        int errorctr = 0;
+        int correctctr = 0;
+
+        private void GameUControl_Load(object sender, EventArgs e)
+        {
+            RandomWord();
+        }
+
+        void RandomWord()
+        {
+            string[] words = {
+                "cookies",
+                "mother",
+                "table",
+                "history",
+                "family",
+                "picture",
+                "glass",
+                "tree",
+                "door",
+                "garage",
+                "sandwich",
+                "morning",
+                "icecream",
+                "hate",
+                "share",
+                "bear",
+                "cat",
+                "scissors",
+                "happy",
+                "facebook",
+                "house",
+                "cheese",
+                "clock",
+                "chips",
+                "potato"
+                };
+
+            randString = words[new Random().Next(0, words.Length)];
+
+            a = new char[randString.Length];
+
+            int space = 600 / a.Length - 1;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                labels.Add(new Label());
+                labels[i].Font = new Font(this.Font.Name, 15, FontStyle.Bold);
+                labels[i].Location = new Point((i * space) + 10, 125);
+                labels[i].Parent = DisplayWordPanel;
+                labels[i].Text = "__";
+                labels[i].BringToFront();
+                labels[i].CreateControl();
+            }
+        }
+
+        private void buttonQ_Click(object sender, EventArgs e)
+        {
+            bool minuslife = false;
+
+            Button bttn = (Button)sender;
+            bttn.Enabled = false;
+
+            for (int i = 0; i < randString.Length; i++)
+            {
+                if (char.Equals(bttn.Text[0], char.ToUpper(randString[i])))
+                {
+                    labels[i].Font = new Font("Century Gothic", 15, FontStyle.Bold);
+                    labels[i].Text = " " + bttn.Text + " ";
+                    minuslife = true;
+                    correctctr++;
+                    MarioJump.Play();
+                }
+            }
+
+            if (minuslife == false)
+            {
+                errorctr++;
+                Buzzer.Play();
+            }
+
+            if (randString.Length == correctctr)
+            {
+                PakGanernGame pgame = this.ParentForm as PakGanernGame;
+                pgame.Score += 10;
+                pgame.UpdateScore();
+                RevealWordPanel.BringToFront();
+                RevealWordLabel.Text = randString.ToString().ToUpper();
+                RevealWordLabel.Font = new Font("Summeron", 30, FontStyle.Bold);
+                RevealWordLabel.Parent = RevealWordPanel;
+                CongratsPanel.BringToFront();
+
+                //GBGM.Stop();
+                // Stage Clear Sound
+                StageClear.Play();
+            }
+
+            // hearts life
+            if (errorctr == 1)
+            {
+                life6.Visible = false;
+            }
+
+            else if (errorctr == 2)
+            {
+                life5.Visible = false;
+            }
+
+            else if (errorctr == 3)
+            {
+                life4.Visible = false;
+            }
+
+            else if (errorctr == 4)
+            {
+                life3.Visible = false;
+            }
+
+            else if (errorctr == 5)
+            {
+                life2.Visible = false;
+            }
+
+            else if (errorctr == 6)
+            {
+                life1.Visible = false;
+
+                RevealWordPanel.BringToFront();
+                RevealWordLabel.Text = randString.ToString().ToUpper();
+                RevealWordLabel.Font = new Font("Summeron", 30, FontStyle.Bold);
+                RevealWordLabel.Parent = RevealWordPanel;
+
+                //GBGM.Stop();
+                GameOverPanel.BringToFront();
+                // Game Over Sound
+                GameOver.Play();
+            }
+        }
+
+        private void CongratsEndGameBttn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void NextRoundBttn_Click(object sender, EventArgs e)
+        {
+            // Sound Stop
+            StageClear.Stop();
+            CongratsPanel.SendToBack();
+            PGamePanel.Controls.Clear();
+            PGamePanel.Controls.Add(new GameUControl());
+            
+        }
+
+        private void EndGameBttn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void NewGameBttn_Click(object sender, EventArgs e)
+        {
+            // Clear Score
+            PakGanernGame pgame = this.ParentForm as PakGanernGame;
+            pgame.Score = 0;
+            pgame.UpdateScore();
+
+            // Sound Stop
+            GameOver.Stop();
+            GameOverPanel.SendToBack();
+            PGamePanel.Controls.Clear();
+            PGamePanel.Controls.Add(new GameUControl());
+            //pgame.Hide();
+            //PakGanernGame pnewgame = new PakGanernGame();
+            //pnewgame.Show();
+        }
+    }
+}

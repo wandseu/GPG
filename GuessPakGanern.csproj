@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C29783A-4A5B-4788-91F4-586E271F2F00}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GuessPakGanern</RootNamespace>
+    <AssemblyName>GuessPakGanern</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\MaryWilla\Desktop\PAK GANERN\GPG\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C12862E95ECBF1B0A1A3DB0A4913D4315C1B3EE4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GuessPakGanern_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\MetroFR\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\MetroFR\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\MetroFR\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimalsUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AnimalsUControl.Designer.cs">
+      <DependentUpon>AnimalsUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistsUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArtistsUControl.Designer.cs">
+      <DependentUpon>ArtistsUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CategoryUControl.Designer.cs">
+      <DependentUpon>CategoryUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountriesUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CountriesUControl.Designer.cs">
+      <DependentUpon>CountriesUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GamesUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GamesUControl.Designer.cs">
+      <DependentUpon>GamesUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingScreen.Designer.cs">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MoviesUControl.Designer.cs">
+      <DependentUpon>MoviesUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Name.Designer.cs">
+      <DependentUpon>Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PakGanernGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PakGanernGame.Designer.cs">
+      <DependentUpon>PakGanernGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuperHeroUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperHeroUControl.Designer.cs">
+      <DependentUpon>SuperHeroUControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnimalsUControl.resx">
+      <DependentUpon>AnimalsUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtistsUControl.resx">
+      <DependentUpon>ArtistsUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryUControl.resx">
+      <DependentUpon>CategoryUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountriesUControl.resx">
+      <DependentUpon>CountriesUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamesUControl.resx">
+      <DependentUpon>GamesUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesUControl.resx">
+      <DependentUpon>MoviesUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Name.resx">
+      <DependentUpon>Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PakGanernGame.resx">
+      <DependentUpon>PakGanernGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SuperHeroUControl.resx">
+      <DependentUpon>SuperHeroUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GuessPakGanern_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pakeu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pakeuuuu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-inside-a-square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize-tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14389823_120300000221005631_2004028997_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14389775_120300000219408401_1068653454_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14397344_120300000222945404_1534111151_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sLTCZoS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghfckh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_nigpkc5XE71r4klapo1_r1_500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_tumblr_static_filename_640.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_ltsft1v1g21r1b4vq.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_n5pcezCGFa1talk0xo1_500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_zpsqdpqr0w0wcs8o8wo4cs4o.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pusheen png 1 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_mf9kpihE5m1rgpyeqo1_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how2play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how2play1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a88be9f7deb90c3e1779b9fd414ea8db.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-kitty-animated-gif-62.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_mnig1u59cI1s5jjtzo1_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14429574_120300000268314644_1113296305_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kvhVUAG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h8NrYWd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how2playtryyy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how2play2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\namebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buzzer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioJump.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PacManIntro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StageClear.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameBgm.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GBGM.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_1cb0d28625297cff-0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donut8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spindonut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimalsBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_n5pcezCGFa1talk0xo1_5001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categories2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoviesBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GamesBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuperHeroBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CountriesBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtistsBttn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtistsBttn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spindonut1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
