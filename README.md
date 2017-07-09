@@ -26,7 +26,7 @@ A guessing game called Guess Pak Ganern.
 ![1](screenshots/8.png)
 
 ## Game Over :-1:
-![1](screenshots/8.png)
+![1](screenshots/9.png)
 
 ## Installing :computer:
 ```
